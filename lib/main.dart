@@ -12,8 +12,9 @@ void main() {
       ),
       body: const Center(
         child: Image(
-          image: NetworkImage(
-              "https://upload.wikimedia.org/wikipedia/commons/6/6e/Gal_Gadot_2016_lighting_corrected.jpg"),
+          image: AssetImage("images/gal-gadot.jpg"),
+          /*image: NetworkImage(
+              "https://upload.wikimedia.org/wikipedia/commons/6/6e/Gal_Gadot_2016_lighting_corrected.jpg"),*/
         ),
       ),
     ),
